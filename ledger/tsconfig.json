@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "declaration": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "baseUrl": ".",
+    "paths": {
+      "@constructs/*": ["lib/constructs/*"],
+      "@lambda-handlers/*": ["functions/handlers/*"],
+      "@lambda-libs/*": ["functions/libs/*"]
+    }
+  },
+  "include": ["bin", "lib", "functions"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

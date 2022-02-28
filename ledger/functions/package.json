@@ -1,0 +1,24 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "2.5.5",
+    "@middy/http-header-normalizer": "2.5.5",
+    "@middy/http-json-body-parser": "2.5.5",
+    "aws-sdk": "2.1058.0",
+    "aws-xray-sdk-core": "3.3.4",
+    "env-var": "7.1.1",
+    "hyperid": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.89"
+  }
+}

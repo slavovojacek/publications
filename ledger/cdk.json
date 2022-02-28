@@ -1,0 +1,3 @@
+{
+  "app": "NODE_PATH=. npx ts-node bin/ledger.ts"
+}
